@@ -1,4 +1,3 @@
-[![stars - benchmarks](https://img.shields.io/github/stars/martinstm/benchmarks?style=social)](https://github.com/martinstm/benchmarks) [![forks - benchmarks](https://img.shields.io/github/forks/martinstm/benchmarks?style=social)](https://github.com/martinstm/benchmarks)
 [![.NET](https://github.com/martinstm/benchmarks/workflows/.NET/badge.svg)](https://github.com/martinstm/benchmarks/actions?query=workflow:".NET") [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Medium -  Click here](https://img.shields.io/badge/Medium-_Click_here-2ea44f?logo=medium)](https://medium.com/@martinstm)
