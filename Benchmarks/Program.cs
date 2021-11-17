@@ -1,6 +1,7 @@
 ﻿using BenchmarkDotNet.Running;
 using Benchmarks.ForForeachLinq;
 using Benchmarks.NullEmptyChecks;
+using Benchmarks.Strings;
 
 namespace Benchmarks
 {
@@ -19,6 +20,10 @@ namespace Benchmarks
             //BenchmarkRunner.Run<NullCheckObjectBenchmark>();
             //BenchmarkRunner.Run<NullCheckStringBenchmark>();
             //BenchmarkRunner.Run<CheckEmptyListsBenchmark>();
+            #endregion
+
+            #region Strings
+            //BenchmarkRunner.Run<ConcatenateBenchmark>();
             #endregion
         }
     }
