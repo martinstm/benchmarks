@@ -1,3 +1,8 @@
+[![martinstm - benchmarks](https://img.shields.io/static/v1?label=martinstm&message=benchmarks&color=blue&logo=github)](https://github.com/martinstm/benchmarks "Go to GitHub repo") [![stars - benchmarks](https://img.shields.io/github/stars/martinstm/benchmarks?style=social)](https://github.com/martinstm/benchmarks) [![forks - benchmarks](https://img.shields.io/github/forks/martinstm/benchmarks?style=social)](https://github.com/martinstm/benchmarks)
+[![.NET](https://github.com/martinstm/benchmarks/workflows/.NET/badge.svg)](https://github.com/martinstm/benchmarks/actions?query=workflow:".NET") [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![Medium -  Click here](https://img.shields.io/badge/Medium-_Click_here-2ea44f?logo=medium)](https://medium.com/@martinstm)
+
 # Performance Wars - C#
 
 This is the repository with all test cases from Performance Wars - C#. It is a series of posts from  [my Medium page](https://medium.com/@martinstm)
