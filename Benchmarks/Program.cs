@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
+using Benchmarks.ClassesVsStructs;
 using Benchmarks.ForForeachLinq;
 using Benchmarks.NullEmptyChecks;
 using Benchmarks.Strings;
@@ -24,6 +25,10 @@ namespace Benchmarks
 
             #region Strings
             //BenchmarkRunner.Run<ConcatenateBenchmark>();
+            #endregion
+
+            #region Classes VS Structs
+            //BenchmarkRunner.Run<ClassStructBenchmark>();
             #endregion
         }
     }

@@ -8,7 +8,7 @@ This is the repository with all test cases from Performance Wars - C#. It is a s
 
 ## .NET Version
 
-Until now, all the tests run on **.NET 5** version.
+Until now, all the tests run on **.NET 6** version.
 
 ## BenchmarkDotNet
 
