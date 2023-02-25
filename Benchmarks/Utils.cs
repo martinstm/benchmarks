@@ -15,7 +15,7 @@ namespace Benchmarks
             Random random = new Random();
             var list = new List<User>();
 
-            while(size > 0)
+            while (size > 0)
             {
                 int index = random.Next(names.Length);
                 var randomName = names[index];
@@ -23,8 +23,25 @@ namespace Benchmarks
                 var randomYears = random.Next(0, 10);
 
                 list.Add(new User(randomName, randomName.ToEmail(), randomYears));
-                
+
                 size--;
+            }
+            return list;
+        }
+
+        public static IEnumerable<User> GenerateUserList(int size)
+        {
+            var list = new List<User>();
+
+            while (size > 0)
+            {
+                foreach (var name in names)
+                {
+                    list.Add(new User(name, name.ToEmail()));
+                    size--;
+                    if (size == 0)
+                        break;
+                }
             }
             return list;
         }
@@ -57,7 +74,7 @@ namespace Benchmarks
 
             while (size > 0)
             {
-                if(size % 2 == 0)
+                if (size % 2 == 0)
                 {
                     list.Add(Guid.NewGuid().ToString());
                 }

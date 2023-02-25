@@ -4,7 +4,7 @@ using Benchmarks.Models;
 namespace Benchmarks.NullEmptyChecks
 {
     [RankColumn]
-    [SimpleJob(targetCount: 50)]
+    [SimpleJob(iterationCount: 50)]
     public class NullCheckObjectBenchmark
     {
         private User user;
