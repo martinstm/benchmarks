@@ -1,5 +1,6 @@
 ﻿using BenchmarkDotNet.Running;
 using Benchmarks.ClassesVsStructs;
+using Benchmarks.DictionaryListKeyValuePair;
 using Benchmarks.ForForeachLinq;
 using Benchmarks.NullEmptyChecks;
 using Benchmarks.Strings;
@@ -29,6 +30,10 @@ namespace Benchmarks
 
             #region Classes VS Structs
             //BenchmarkRunner.Run<ClassStructBenchmark>();
+            #endregion
+
+            #region Dictionary VS Lists VS KeyValuePair
+            BenchmarkRunner.Run<DictionaryVsLists>();
             #endregion
         }
     }
